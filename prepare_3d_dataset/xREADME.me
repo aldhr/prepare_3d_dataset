@@ -1,0 +1,16 @@
+DATASET [1st folder to run]
+
+Folder
+>data should contains: initial dataset 
+>utils contains scripts to make work the other ones
+
+Scripts
+>config.yaml           | contains the path used on scripts
+>run_scripts.py        | contains the pipeline of scripts [order]
+>utils
+>get_dataset.ipynb     | notebook to curate initial dataset 
+>pdb_batch_download.sh | Script provided  by RCSB to download pdbs
+>get_smiles.py         | add smiles to curated dataset [it is import to fix manually errors]
+>get_splits.py         |uses deepchem code for split dataset based on tanimoto 
+
+OUTPUT: structures on graph_embedding folder!

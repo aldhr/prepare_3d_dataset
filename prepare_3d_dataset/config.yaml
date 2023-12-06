@@ -1,0 +1,8 @@
+#1 input of csv datafile
+dataset_path: data/IC50_pdbbind.csv   
+#2 output of download structures
+structures_downloaded: ../graph_embedding/structures
+tmp_pdb_folder: tmp_pdb_gz
+
+
+
